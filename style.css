@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "alk";
+    src: url(assets/fonts/alk_life.otf);
+}
+
+@font-face {
+    font-family: "dejavu sans" ;
+    src: url(assets/fonts/bpg_dejavu_sans.ttf);
+}
+ /* header */
+.headbox {
+    display: flex;
+    background-color: #D9D9D9;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+    
+
+.headlogo {
+   height: 100px;
+width: 178px;
+}
+
+.headbox .text {
+    margin-left: 38px;
+    color: #717276;
+    font-size: 24px;
+    font-family: alk;
+}
+ /* main */
+
+ .cover .background {
+  padding: 130px; 160px;
+ }
+
+ .main-h1 {display:flex;
+padding-left: 130px;}
+.main-h1 .title {color: #717276;
+    padding: 30px;
+    font-family: dejavu sans;
+    font-size: 32px;
+}
+/* section books */
+.books-sec {display: flex; 
+   padding-left: 110px;
+   padding-top: 40px;
+}
+
+
+.books-sec .book {display: grid;
+margin-left: 20px;}
+
+.name {color: #717276;
+font-size: 24px;
+font-family: dejavu sans;
+margin-top: 50px;}
+
+.title {color: black;
+font-size: 24px;
+font-family: alk;}
+
+.price {color: black;
+font-size: 24px;
+font-family: dejavu sans;
+}
+
+/* section authors */
+.logo-author {display: flex;
+margin-top: 160px;
+padding-left: 130px;}
+
+.h-author {color: #717276;
+font-size: 32px;
+font-family: dejavu sans;
+padding:20px;}
+
+.w-author {display: inline;
+}
+.w-author .foto {padding-left: 130px;
+padding-top: 40px;
+}
+.w-author .foto-a {margin-left: 20px;}
+
+/* footer */
+.footerbox {display: flex;
+background-color: #D9D9D9;
+height:248px;
+justify-content: space-between;
+align-items: center;
+}
+.footerbox .info {
+    padding-left: 130px;
+    font-family: alk;
+    font-size: 24px;
+
+}
+.footerbox .social-media {
+    padding-right: 130px;
+}
+
+
